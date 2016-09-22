@@ -1,0 +1,89 @@
+.lightboxOverlay {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 9999;
+background-color: black;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+opacity: 0.8;
+display: none;
+}
+
+.lightbox {
+position: absolute;
+left: 0;
+width: 100%;
+z-index: 10000;
+text-align: center;
+line-height: 0;
+font-weight: normal;}
+
+
+.lb-prev, .lb-next {
+width: 49%;
+height: 100%;
+cursor: pointer;
+display: block;}
+.lb-prev {
+left: 0;
+float: left;}
+
+.lb-next {
+right: 0;
+float: right;
+}
+
+.lb-prev:hover {
+background: url(../images/prev.png) left 48% no-repeat !important;
+}
+
+.lb-next:hover {
+background: url(../images/next.png) right 48% no-repeat !important;
+}
+
+.lb-data .lb-close {
+display: block;
+float: right;
+width: 30px;
+height: 30px;
+background: url(../images/close.png) top right no-repeat !important;
+text-align: right;
+outline: none;
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+opacity: 0.7;
+}
+
+.lb-cancel {
+display: block;
+width: 32px;
+height: 32px;
+margin: 0 auto;
+background: url(../images/loading.gif) no-repeat !important;
+}
+
+
+.lb-outerContainer {
+position: relative;
+background-color: white;
+width: 606px !important;
+height: 416px !important;
+margin: 0 auto;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+-ms-border-radius: 6px;
+-o-border-radius: 6px;
+border-radius: 6px;
+}
+
+.lightbox .lb-image {
+display: block;
+height: auto;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-ms-border-radius: 3px;
+-o-border-radius: 3px;
+border-radius: 3px;
+width: 596px !important;
+height: 406px !important;
+}
+
